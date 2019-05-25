@@ -11,5 +11,8 @@ using std::string;
             Chasis(string,string);    
             string getRuedas();
             void setRuedas(string);
+            string geTransmision();
+            void seTransmision(string);
+
     };
 #endif

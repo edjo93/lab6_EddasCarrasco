@@ -11,3 +11,9 @@ string Chasis::getRuedas(){
 void Chasis::setRuedas(string ruedas){
     tipo_ruedas=ruedas;
 }
+string Chasis:: geTransmision(){
+    return transmision;
+}
+void Chasis::seTransmision(string _transmision){
+    transmision=_transmision;
+}
